@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="271" />
+   <clocksource preferredWidth="270" />
+   <frequency preferredWidth="251" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Memories and Memory Controllers,Library/Memories and Memory Controllers/On-Chip,Project/MT3TB4_2,Project,Library/Embedded Processors,Library,Library/Interface Protocols/Serial,Library/Interface Protocols" />
+ <window width="1100" height="800" x="398" y="81" />
+</preferences>

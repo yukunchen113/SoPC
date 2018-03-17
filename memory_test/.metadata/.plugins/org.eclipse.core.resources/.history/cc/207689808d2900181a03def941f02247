@@ -1,0 +1,91 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <system.h>
+
+void test_char(){
+	char* p;
+	//printf("%d",SRAM_CONTROLLER_0_BASE);
+	p = (char *)SRAM_CONTROLLER_0_BASE;
+	int i;
+	char * test = "group2";
+	//----------write char---------
+	for(i=0;i<5;i++){
+		//printf("%d\n",(p+i));
+
+		*(p+i*2) = test[i];
+	}printf("\n");
+	//----------------------------
+	char a;
+	//---------read--------------
+	for(i=0;i<5;i++){
+		a = *(p+i*2);
+		printf("%c",a);
+	}
+	printf("\n");
+}
+
+void test_short(){
+	int i;
+	short *q;
+	q = (short *)SRAM_CONTROLLER_0_BASE;
+	//----------write short----------
+	for(i=0;i<5;i++){
+		*(q+i) = (short)i;
+		//printf("%d\n",(q+i));
+	}
+	//----------------------------
+	//---------read--------------
+	short b;
+	for(i=0;i<5;i++){
+		b = *(q+i);
+		printf("%d",b);
+	}
+	printf("\n");
+}
+void test_int(){
+	//---------------------------
+	int i;
+	int *r;
+	r = (int *)SRAM_CONTROLLER_0_BASE;
+	//----------write int---------
+	for(i=0;i<5;i++){
+		*(r+i) = i;
+	}
+	//----------------------------
+	int c;
+	//---------read--------------
+	for(i=0;i<5;i++){
+		c = *(r+i);
+		printf("%d",c);
+	}
+	//---------------------------
+}
+
+int main()
+{
+
+		test_char();
+
+		//---------------------------
+		while(1){
+			test_short();
+		}
+		// ---------------------------
+		test_int();
+	return 0;
+}

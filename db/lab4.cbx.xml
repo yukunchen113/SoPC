@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab4">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_joc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_8ci.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sopc_system:NiosII|sopc_system_nios2_qsys_0:nios2_qsys_0|sopc_system_nios2_qsys_0_nios2_oci:the_sopc_system_nios2_qsys_0_nios2_oci|sopc_system_nios2_qsys_0_nios2_ocimem:the_sopc_system_nios2_qsys_0_nios2_ocimem|sopc_system_nios2_qsys_0_ociram_sp_ram_module:sopc_system_nios2_qsys_0_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_dn81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sopc_system:NiosII|sopc_system_nios2_qsys_0:nios2_qsys_0|sopc_system_nios2_qsys_0_register_bank_b_module:sopc_system_nios2_qsys_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_aah1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_jsf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_90j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sopc_system:NiosII|sopc_system_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_4dd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_02j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sopc_system:NiosII|sopc_system_jtag_uart_0:jtag_uart_0|sopc_system_jtag_uart_0_scfifo_w:the_sopc_system_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sopc_system:NiosII|sopc_system_nios2_qsys_0:nios2_qsys_0|sopc_system_nios2_qsys_0_register_bank_a_module:sopc_system_nios2_qsys_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_9ah1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_cq14.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_cai.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|sopc_system:NiosII|sopc_system_jtag_uart_0:jtag_uart_0|sopc_system_jtag_uart_0_scfifo_r:the_sopc_system_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
